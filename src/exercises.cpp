@@ -144,14 +144,14 @@ string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
   string doc;
   if(number_of_docs <= 0){
-    cout<<"No se encontraron documentos";
+    doc="No se encontraron documentos";
   }else if(number_of_docs == 1){
-    cout<<"Se encontro un documento";
+    doc="Se encontro un documento";
   }else if(number_of_docs >=2){
     string (number_of_docs);
-    cout<< number_of_docs <<" documentos encontrados";
+    doc= number_of_docs  "documentos encontrados";
   }
-  return 0;
+  return doc;
 }
 
 void exercise_15(int a, int b, int c) {
