@@ -24,7 +24,7 @@ void exercise_2(double A, double B, double C) {
 void exercise_3(int a, int b){
   // TODO: YOUR CODE HERE
   if (b == 0){
-   cout<<"imposible"<<endl;
+   cout<<"Impossible"<<endl;
   }else if(a, b >= 0 && a, b <= 1000000){
    cout<< int (a / b) <<endl;
   }
@@ -86,7 +86,7 @@ void exercise_7(double r) {
 if(r < 0){
  cout<<"Error: Radius cannot be negative."<<endl;
 }else{
- cout<< double (4 * 3.141592653589793 * (r * r)) << endl;
+ cout<< double (4 * 3.14 * (r * r)) << endl;
 }
 }
 
