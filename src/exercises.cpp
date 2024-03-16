@@ -34,9 +34,9 @@ void exercise_3(int a, int b){
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 if(n>a && n<b){
-  cout<< (n * x) / 100 <<endl;
+  cout<< (n * (100 - x)) / 100 <<endl;
 }else if(n>b){
-  cout<< (n * y) / 100 <<endl;
+  cout<< (n * (100 - y)) / 100 <<endl;
 }
 }
 
@@ -118,7 +118,17 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
-  return "";
+  string puesto;
+  if (age >= 18 && years_of_experience <= 2){
+    puesto="Project coordinator";
+  } else if(age >= 18 && years_of experience >= 3 && years_of experience < 5){
+    puesto= "Project manager";
+  } else if(age >= 18 && years_of experience >= 5){
+    puesto= "Senior project manager";
+  } else{
+    puesto="Not elegible";
+  }
+  return puesto;
 }
 
 string exercise_14(int number_of_docs) {
