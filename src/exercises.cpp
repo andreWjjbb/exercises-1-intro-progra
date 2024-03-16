@@ -54,25 +54,25 @@ void exercise_5(char character) {
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
   switch(number){
-   case 1;
+   case 1:
    cout<< "Monday";
    break;
-   case 2;
+   case 2:
    cout<<"Tuesday";
    break;
-   case 3;
+   case 3:
    cout<< "Wednesday";
    break;
-   case 4;
+   case 4:
    cout<<"Thursday";
    break;
-   case 5;
+   case 5:
    cout<<"Friday";
    break;
-   case 6;
+   case 6:
    cout<<"Saturday";
    break;
-   case 7;
+   case 7:
    cout<<"Sunday";
    break;
    default:
@@ -84,7 +84,7 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 if(r < 0){
- cout<<"Error: Radius cannot be negative.";
+ cout<<"Error: Radius cannot be negative."<<endl;
 }else{
  cout<< double 4 * 3.1416 * (r * r);
 }
