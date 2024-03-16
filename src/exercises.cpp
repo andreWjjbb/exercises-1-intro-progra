@@ -148,9 +148,10 @@ string exercise_14(int number_of_docs) {
   }else if(number_of_docs == 1){
     doc= "Se encontro un documento"
   }else if(number_of_docs >=2){
-    doc= string (number_of_docs), "documentos encontrados"
+    string (number_of_docs)
+    doc= number_ of_docs, "documentos encontrados"
   }
-  return "";
+  return doc;
 }
 
 void exercise_15(int a, int b, int c) {
