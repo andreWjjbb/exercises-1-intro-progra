@@ -26,7 +26,7 @@ void exercise_3(int a, int b){
   if (b=0){
    cout<<"imposible"<<endl;
   }else{
-   cout<< a / b <<endl;
+   cout<< int (a / b) <<endl;
   }
 
 }
@@ -42,9 +42,9 @@ if(n<a){
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  if (character >= 65 && character <= 90){
+  if (character >= char (65) && character <= vhar (90)){
    cout<< "lower-case alphabet"<<endl;
-  }else if (character >= 97 && character <= 122){
+  }else if (character >= char (97) && character <= char (122)){
    cout<< "upper-case alphabet"<<endl;
   }else{
    cout<<"not an alphabet"<<endl;
@@ -55,25 +55,25 @@ void exercise_6(int number) {
   // TODO: YOUR CODE HERE
   switch(number){
    case 1:
-   cout<< "Monday";
+   cout<< "Monday"<<endl;
    break;
    case 2:
-   cout<<"Tuesday";
+   cout<<"Tuesday"<<endl;
    break;
    case 3:
-   cout<< "Wednesday";
+   cout<< "Wednesday"<<endl;
    break;
    case 4:
-   cout<<"Thursday";
+   cout<<"Thursday"<<endl;
    break;
    case 5:
-   cout<<"Friday";
+   cout<<"Friday"<<endl;
    break;
    case 6:
-   cout<<"Saturday";
+   cout<<"Saturday"<<endl;
    break;
    case 7:
-   cout<<"Sunday";
+   cout<<"Sunday"<<endl;
    break;
    default:
    cout<<"Invalid input"<<endl;
