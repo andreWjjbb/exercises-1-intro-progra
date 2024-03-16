@@ -11,7 +11,7 @@ if(s1<s2 && s1<s3){
 } else if(s2<s1 && s2<s3){
   cout<<s2;
 } else{
-  cout<<s3
+  cout<<s3;
 }
   
 }
@@ -26,25 +26,25 @@ void exercise_3(int a, int b) {
   if (b=0){
    cout<<"imposible";
   }else{
-   cout<< int a / b;
+   cout<< a / b;
   }
 
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-if(N<A){
-  cout<< N % X <<endl;
-}else if(N<B){
-  cout<< N % Y << endl;
+if(n<a){
+  cout<< n % x <<endl;
+}else if(n<b){
+  cout<< n % y << endl;
 }
 }
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  if (character >= 65 && <= 90){
+  if (character >= 65 && character <= 90){
    cout<< "lower-case alphabet"<<endl;
-  }if-else (character >= 97 && <= 122){
+  }else if (character >= 97 && character <= 122){
    cout<< "upper-case alphabet"<<endl;
   }else{
    cout<<"not an alphabet"<<endl;
