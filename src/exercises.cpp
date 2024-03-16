@@ -115,7 +115,7 @@ string exercise_11(int number) {
   }else{
     fibo="Esto no es de Fibonacci";
   }
-  return "";
+  return fibo;
 }
 
 void exercise_12(string color1, int numb1,
@@ -144,14 +144,14 @@ string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
   string doc;
   if(number_of_docs <= 0){
-    doc= "No se encontraron documentos";
+    cout<<"No se encontraron documentos";
   }else if(number_of_docs == 1){
-    doc= "Se encontro un documento";
+    cout<<"Se encontro un documento";
   }else if(number_of_docs >=2){
     string (number_of_docs);
-    doc= number_of_docs, "documentos encontrados";
+    cout<< number_of_docs <<" documentos encontrados";
   }
-  return doc;
+  return 0;
 }
 
 void exercise_15(int a, int b, int c) {
