@@ -109,7 +109,7 @@ int exercise_10(int a, int b) {
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
   string fibo;
-  cin>> int(number);
+  cin>>number;
   if(number == 11235813){
     fibo= "Se encontro a Fibonacci";
   }else{
