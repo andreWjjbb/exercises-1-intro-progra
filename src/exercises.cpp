@@ -121,9 +121,9 @@ string exercise_13(int age, int years_of_experience) {
   string puesto;
   if (age >= 18 && years_of_experience <= 2){
     puesto="Project coordinator";
-  } else if(age >= 18 && years_of experience >= 3 && years_of experience < 5){
+  } else if(age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
     puesto= "Project manager";
-  } else if(age >= 18 && years_of experience >= 5){
+  } else if(age >= 18 && years_of_experience >= 5){
     puesto= "Senior project manager";
   } else{
     puesto="Not elegible";
