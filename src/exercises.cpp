@@ -33,19 +33,19 @@ void exercise_3(int a, int b){
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-if(n<a){
+if(n>a && ){
   cout<< (n * x) / 100 <<endl;
 }else if(n>b){
-  cout<< (n * y) / 100 << endl;
+  cout<< (n * y) / 100 <<endl;
 }
 }
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
   if (character >= char (65) && character <= char (90)){
-   cout<< "lower-case alphabet"<<endl;
-  }else if (character >= char (97) && character <= char (122)){
    cout<< "upper-case alphabet"<<endl;
+  }else if (character >= char (97) && character <= char (122)){
+   cout<< "lower-case alphabet"<<endl;
   }else{
    cout<<"not an alphabet"<<endl;
   }
@@ -86,7 +86,7 @@ void exercise_7(double r) {
 if(r < 0){
  cout<<"Error: Radius cannot be negative."<<endl;
 }else{
- cout<< double (4 * 3.1416 * (r * r)) << endl;
+ cout<< double (4 * 3.141592653589793 * (r * r)) << endl;
 }
 }
 
