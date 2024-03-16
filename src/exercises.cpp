@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void exercise_1(string s1, string s2, string s3) {
+void exercise_1(string s1, string s2, string s3){
   // TODO: YOUR CODE HERE
 if(s1<s2 && s1<s3){
   cout<<s1;
@@ -21,12 +21,12 @@ void exercise_2(double A, double B, double C) {
   
 }
 
-void exercise_3(int a, int b) {
+void exercise_3(int a, int b){
   // TODO: YOUR CODE HERE
   if (b=0){
-   cout<<"imposible";
+   cout<<"imposible"<<endl;
   }else{
-   cout<< a / b;
+   cout<< a / b <<endl;
   }
 
 }
@@ -34,9 +34,9 @@ void exercise_3(int a, int b) {
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 if(n<a){
-  cout<< x / 100 * n <<endl;
+  cout<< (x / 100) * n <<endl;
 }else if(n>b){
-  cout<< y / 100 * n << endl;
+  cout<< (y / 100) * n << endl;
 }
 }
 
@@ -86,7 +86,7 @@ void exercise_7(double r) {
 if(r < 0){
  cout<<"Error: Radius cannot be negative."<<endl;
 }else{
- cout<< double 4 * 3.1416 * (r * r);
+ cout<< 4 * 3.1416 * (r * r);
 }
 }
 
