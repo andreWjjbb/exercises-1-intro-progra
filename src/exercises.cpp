@@ -34,9 +34,9 @@ void exercise_3(int a, int b){
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 if(n>b){
-  cout<< (n * (100 - x)) / 100 <<endl;
-}else if(n>a){
   cout<< (n * (100 - y)) / 100 <<endl;
+}else if(n>a){
+  cout<< (n * (100 - x)) / 100 <<endl;
 } else{
   cout<< n <<endl;
 }
@@ -108,6 +108,13 @@ int exercise_10(int a, int b) {
 
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
+  string fibo;
+  cin>> int(number);
+  if(number == 11235813){
+    fibo= "Se encontro a Fibonacci";
+  }else{
+    fibo="Esto no es de Fibonacci"
+  }
   return "";
 }
 
@@ -135,6 +142,14 @@ string exercise_13(int age, int years_of_experience) {
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
+  string doc;
+  if(number_of_docs <= 0){
+    doc= "No se encontraron documentos";
+  }else if(number_of_docs == 1){
+    doc= "Se encontro un documento"
+  }else if(number_of_docs >=2){
+    doc= string (number_of_docs), "documentos encontrados"
+  }
   return "";
 }
 
