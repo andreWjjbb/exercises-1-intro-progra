@@ -86,7 +86,7 @@ void exercise_7(double r) {
 if(r < 0){
  cout<<"Error: Radius cannot be negative."<<endl;
 }else{
- cout<< 4 * 3.1416 * pow(r)2 << endl;
+ cout<< double (4 * 3.1416 * (r * r)) << endl;
 }
 }
 
