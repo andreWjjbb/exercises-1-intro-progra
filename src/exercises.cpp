@@ -17,7 +17,7 @@ void exercise_2(double A, double B, double C) {
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
   if b=0;
-   cout<< "imposible";
+   cout<<"imposible";
   else;
    cout<< int a / b;
   exercise_3(10, 2);
