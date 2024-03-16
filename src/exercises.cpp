@@ -34,9 +34,9 @@ void exercise_3(int a, int b) {
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 if(n<a){
-  cout<< n % x <<endl;
-}else if(n<b){
-  cout<< n % y << endl;
+  cout<< x / 100 * n <<endl;
+}else if(n>b){
+  cout<< y / 100 * n << endl;
 }
 }
 
