@@ -33,10 +33,12 @@ void exercise_3(int a, int b){
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-if(n>a && n<b){
+if(n>b){
   cout<< (n * (100 - x)) / 100 <<endl;
-}else if(n>b){
+}else if(n>a){
   cout<< (n * (100 - y)) / 100 <<endl;
+} else{
+  cout<< n <<endl;
 }
 }
 
@@ -126,7 +128,7 @@ string exercise_13(int age, int years_of_experience) {
   } else if(age >= 18 && years_of_experience >= 5){
     puesto= "Senior project manager";
   } else{
-    puesto="Not elegible";
+    puesto="Not eligible";
   }
   return puesto;
 }
