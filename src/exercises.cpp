@@ -147,9 +147,9 @@ string exercise_14(int number_of_docs) {
     doc="No se encontraron documentos";
   }else if(number_of_docs == 1){
     doc="Se encontro un documento";
-  }else if(number_of_docs >=2){
+  }else if(number_of_docs >= 2){
     string (number_of_docs);
-    doc= number_of_docs  "documentos encontrados";
+    doc= number_of_docs, "documentos encontrados";
   }
   return doc;
 }
