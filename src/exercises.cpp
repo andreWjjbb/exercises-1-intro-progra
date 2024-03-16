@@ -113,7 +113,7 @@ string exercise_11(int number) {
   if(number == 11235813){
     fibo= "Se encontro a Fibonacci";
   }else{
-    fibo="Esto no es de Fibonacci"
+    fibo="Esto no es de Fibonacci";
   }
   return "";
 }
@@ -146,10 +146,10 @@ string exercise_14(int number_of_docs) {
   if(number_of_docs <= 0){
     doc= "No se encontraron documentos";
   }else if(number_of_docs == 1){
-    doc= "Se encontro un documento"
+    doc= "Se encontro un documento";
   }else if(number_of_docs >=2){
-    string (number_of_docs)
-    doc= number_ of_docs, "documentos encontrados"
+    string (number_of_docs);
+    doc= number_ of_docs, "documentos encontrados";
   }
   return doc;
 }
