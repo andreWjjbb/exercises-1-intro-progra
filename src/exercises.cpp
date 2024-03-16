@@ -23,7 +23,7 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b){
   // TODO: YOUR CODE HERE
-  if (b=0){
+  if (b == 0){
    cout<<"imposible"<<endl;
   }else if(a, b >= 0 && a, b <= 1000000){
    cout<< int (a / b) <<endl;
@@ -33,7 +33,7 @@ void exercise_3(int a, int b){
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-if(n>a && ){
+if(n>a && n<b){
   cout<< (n * x) / 100 <<endl;
 }else if(n>b){
   cout<< (n * y) / 100 <<endl;
