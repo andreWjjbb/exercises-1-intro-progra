@@ -25,7 +25,7 @@ void exercise_3(int a, int b){
   // TODO: YOUR CODE HERE
   if (b=0){
    cout<<"imposible"<<endl;
-  }else{
+  }else if(a, b >= 0 && <= 1000000){
    cout<< int (a / b) <<endl;
   }
 
@@ -42,7 +42,7 @@ if(n<a){
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  if (character >= char (65) && character <= vhar (90)){
+  if (character >= char (65) && character <= char (90)){
    cout<< "lower-case alphabet"<<endl;
   }else if (character >= char (97) && character <= char (122)){
    cout<< "upper-case alphabet"<<endl;
@@ -86,7 +86,7 @@ void exercise_7(double r) {
 if(r < 0){
  cout<<"Error: Radius cannot be negative."<<endl;
 }else{
- cout<< 4 * 3.1416 * (r * r);
+ cout<< 4 * 3.1416 * pow(r)2 << endl;
 }
 }
 
